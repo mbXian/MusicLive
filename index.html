@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thimble Sample</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+      //页面加载时运行
+      var button = document.getElementById('button');
+      var audio = document.getElementById('audio');
+
+      var onClick = function() {
+        audio.play(); //音频将被加载并播放
+        console.log('Play');
+      };
+
+      button.addEventListener('click', onClick, false);
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to Thimble</h1>
+    <p id="content">
+      Test
+    </p>
+    <input id="button" type="button" value="Click">
+    <audio autoplay="autoplay" id="audio" preload="auto" loop>
+      <source src="http://fs.open.kugou.com/7b9a0859dd3839b3870dd7bfdfed5cc3/5ca5baba/G001/M03/19/15/QQ0DAFS4rQ-AeeIAAD2zJS8ZtPk468.mp3" />
+      <p>s</p>
+    </audio>
+  </body>
+</html>
