@@ -8,9 +8,11 @@
       //页面加载时运行
       var button = document.getElementById('button');
       var audio = document.getElementById('audio');
+      var p = document.getElementById('content');
 
       var onClick = function() {
         audio.play(); //音频将被加载并播放
+        p.innerHTML = 'Content';
         console.log('Play');
       };
 
@@ -18,13 +20,13 @@
     </script>
   </head>
   <body>
-    <h1>Welcome to Thimble</h1>
+    <h1>Thimble</h1>
     <p id="content">
       Test
     </p>
-    <input id="button" type="button" value="Click">
-    <audio autoplay="autoplay" id="audio" preload="auto" loop>
-      <source src="http://fs.open.kugou.com/7b9a0859dd3839b3870dd7bfdfed5cc3/5ca5baba/G001/M03/19/15/QQ0DAFS4rQ-AeeIAAD2zJS8ZtPk468.mp3" />
+    <input id="button" type="button" value="SonSongs" onclick="onSing()">
+    <audio autoplay="autoplay" id="audio" preload="auto">
+      <source src="http://fs.open.kugou.com/acdee3c06f6cf6dc78ed7a5a9897a30d/5ca5daba/G016/M0A/1C/17/sIYBAFVi8fCAGf41AEPmWAnu_RI158.mp3" />
       <p>s</p>
     </audio>
   </body>
