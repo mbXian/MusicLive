@@ -56,13 +56,15 @@ function onSing() {
   var audio = document.getElementById('audio');
   var button = document.getElementById('button');
   
-  if (button.value == 'MunSongs') {
-    button.value = 'SonSongs';
-    button.innerHTML = 'SonSongs';
+  let MunSongsString = '嫲嫲音乐';
+  let SonSongs = '颖颖音乐';
+  if (button.value == MunSongsString) {
+    button.value = SonSongs;
+    button.innerHTML = SonSongs;
     songList = initSonSongs();
-  } else if (button.value == 'SonSongs') {
-    button.value = 'MunSongs';
-    button.innerHTML = 'MunSongs';
+  } else {
+    button.value = MunSongsString;
+    button.innerHTML = MunSongsString;
     songList = initMunSongs();
   }
   var song = songList[songNum];
