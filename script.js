@@ -21,16 +21,16 @@ function Song(id, singer, name, url){
 function initMunSongs() {
   var songList = new Array();
   
-  let song0 = new Song(0, '陈慧娴', '千千阕歌', 'http://95.163.195.25/audio/if-you-were-a-boy.mp3');
+  let song0 = new Song(0, '陈慧娴', '千千阕歌', 'http://95.163.195.25/audio/qian-qian-que-ge.mp3');
   songList.push(song0);
   
-  let song1 = new Song(1, '黎瑞恩', '一人有一个梦想', 'http://95.163.195.25/audio/if-you-were-a-boy.mp3')
+  let song1 = new Song(1, '黎瑞恩', '一人有一个梦想', 'http://95.163.195.25/audio/yi-ren-you-yi-ge-meng-xiang.mp3')
   songList.push(song1);
   
-  let song3 = new Song(2, '谭咏麟', '讲不出再见', 'http://95.163.195.25/audio/if-you-were-a-boy.mp3')
+  let song3 = new Song(2, '谭咏麟', '讲不出再见', 'http://95.163.195.25/audio/jiang-bu-chu-zai-jian.mp3')
   songList.push(song3);
   
-  let song4 = new Song(3, '关正杰', '俩忘烟水里', 'http://95.163.195.25/audio/if-you-were-a-boy.mp3')
+  let song4 = new Song(3, '关正杰', '俩忘烟水里', 'http://95.163.195.25/audio/liang-wang-yan-shui-li.mp3')
   songList.push(song4);
   
   return songList;
@@ -39,10 +39,10 @@ function initMunSongs() {
 function initSonSongs() {
   var songList = new Array();
 
-//  let song0 = new Song(0, '儿童', '一闪一闪亮晶晶', 'http://fs.open.kugou.com/a9a121a28b149fd245065ac71b1a5c98/5ca5e242/G057/M0A/0E/00/eQ0DAFawAM-AeoQjABmRiFIBeq8524.mp3');
-//  songList.push(song0);
+ let song0 = new Song(0, '杨烁', '两只老虎', 'http://95.163.195.25/audio/liang-zhi-lao-hu.mp3')
+ songList.push(song0);
 
-  let song1 = new Song(1, '杨烁', '两只老虎', 'http://95.163.195.25/audio/if-you-were-a-boy.mp3')
+  let song1 = new Song(1, '杨烁', '小兔子乖乖', 'http://95.163.195.25/audio/xiao-tu-zi-guai-guai.mp3');
   songList.push(song1);
 
   return songList;
