@@ -4,30 +4,29 @@
     <meta charset="utf-8">
     <title>Thimble Sample</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js">
-      //页面加载时运行
-      var button = document.getElementById('button');
-      var audio = document.getElementById('audio');
-      var p = document.getElementById('content');
-
-      var onClick = function() {
-        audio.play(); //音频将被加载并播放
-        p.innerHTML = 'Content';
-        console.log('Play');
-      };
-
-      button.addEventListener('click', onClick, false);
-    </script>
   </head>
   <body>
-    <h1>Thimble</h1>
-    <p id="content">
-      Test
-    </p>
-    <input id="button" type="button" value="SonSongs" onclick="onSing()">
-    <audio autoplay="autoplay" id="audio" preload="auto">
-      <source src="http://fs.open.kugou.com/acdee3c06f6cf6dc78ed7a5a9897a30d/5ca5daba/G016/M0A/1C/17/sIYBAFVi8fCAGf41AEPmWAnu_RI158.mp3" />
-      <p>s</p>
-    </audio>
+    <div class="background">
+<!--      <div class="transbox">-->
+        <p id="singer" style="margin-bottom: 5px">
+          Singer
+        </p>
+        <p id="song">
+          Song
+        </p>
+        
+        <audio autoplay="autoplay" id="audio" preload="auto">
+          <source src="http://fs.open.kugou.com/acdee3c06f6cf6dc78ed7a5a9897a30d/5ca5daba/G016/M0A/1C/17/sIYBAFVi8fCAGf41AEPmWAnu_RI158.mp3" />
+        </audio>
+      
+      <div id="buttonDiv">
+        <input id="button"
+               type="button" 
+               value="SonSongs" 
+               onclick="onSing()">
+      </div>
+      
+<!--      </div>-->
+    </div>
   </body>
 </html>
