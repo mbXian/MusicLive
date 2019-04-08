@@ -28,17 +28,28 @@ div.transbox
 
 #buttonDiv {
   margin:100px;
-  width:100px;
+  width:150px;
 }
 
 #button {
   background-color: aliceblue;
-  width: 100px;
+  width: 150px;
   border: 1px solid #1BC286; 
   padding: 5px; 
   background: #70B88F; 
   color: white; 
   cursor: pointer; 
-  border-radius: 5px;
-  padding-bottom: 15px
+  border-radius: 10px;
+  padding-bottom: 15px;
+  font-size: 25px;
+}
+
+#singer {
+  text-align: center;
+  font-size: 25px;
+}
+
+#song {
+  text-align: center;
+  font-size: 25px;
 }
