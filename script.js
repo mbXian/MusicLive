@@ -20,27 +20,27 @@ function Song(id, singer, name, url){
 
 function initMunSongs() {
   var songList = new Array();
-  
+
   let song0 = new Song(0, '陈慧娴', '千千阕歌', 'http://95.163.195.25/audio/qian-qian-que-ge.mp3');
   songList.push(song0);
-  
+
   let song1 = new Song(1, '黎瑞恩', '一人有一个梦想', 'http://95.163.195.25/audio/yi-ren-you-yi-ge-meng-xiang.mp3')
   songList.push(song1);
-  
+
   let song3 = new Song(2, '谭咏麟', '讲不出再见', 'http://95.163.195.25/audio/jiang-bu-chu-zai-jian.mp3')
   songList.push(song3);
-  
+
   let song4 = new Song(3, '关正杰', '俩忘烟水里', 'http://95.163.195.25/audio/liang-wang-yan-shui-li.mp3')
   songList.push(song4);
-  
+
   return songList;
 }
 
 function initSonSongs() {
   var songList = new Array();
 
- let song0 = new Song(0, '杨烁', '两只老虎', 'http://95.163.195.25/audio/liang-zhi-lao-hu.mp3')
- songList.push(song0);
+  let song0 = new Song(0, '杨烁', '两只老虎', 'http://95.163.195.25/audio/liang-zhi-lao-hu.mp3')
+  songList.push(song0);
 
   let song1 = new Song(1, '杨烁', '小兔子乖乖', 'http://95.163.195.25/audio/xiao-tu-zi-guai-guai.mp3');
   songList.push(song1);
@@ -55,7 +55,7 @@ function onSing() {
   var songTxt = document.getElementById('song');
   var audio = document.getElementById('audio');
   var button = document.getElementById('button');
-  
+
   let MunSongsString = '嫲嫲音乐';
   let SonSongs = '颖颖音乐';
   if (button.value == MunSongsString) {
@@ -72,7 +72,7 @@ function onSing() {
   singerTxt.innerHTML = song.name;
   songTxt.innerHTML = song.singer;
   audio.play();
-  
+
   audio.addEventListener("ended", function() {
     songNum++;
     if (songNum == songList.length) {
@@ -85,7 +85,7 @@ function onSing() {
     audio.play();
     content.innerHTML = 'Try to Play An Other Song...';
   });
-  
+
   audio.addEventListener("play", function() {
     singerTxt.innerHTML = song.name;
     songTxt.innerHTML = song.singer;
