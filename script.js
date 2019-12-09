@@ -20,7 +20,8 @@ function Song(id, singer, name, url){
 
 function initMunSongs() {
   var songList = new Array();
-  var munSongIp = 'http://47.105.137.41/demo/mun/';
+  // var munSongIp = 'http://47.105.137.41/demo/mun/';
+  var munSongIp = '/mun/';
 
   let song0 = new Song(0, '陈慧娴', '千千阕歌', munSongIp + 'qian-qian-que-ge.mp3');
 
@@ -73,7 +74,8 @@ function initMunSongs() {
 
 function initSonSongs() {
   var songList = new Array();
-  var sonSongIp = 'http://47.105.137.41/demo/son/';
+  // var sonSongIp = 'http://47.105.137.41/demo/son/';
+  var sonSongIp = '/son/';
 
   let song0 = new Song(0, '杨烁', '两只老虎', sonSongIp + 'liang-zhi-lao-hu.mp3');
 
@@ -86,7 +88,10 @@ function initSonSongs() {
   let song4 = new Song(4, '林子祥', '男儿当自强', sonSongIp + 'nan-er-dang-zi-qiang.mp3');
   
   let song5 = new Song(5, '伊芙莲', '氹氹转 菊花园', sonSongIp + 'ju-hua-yuan.mp3');
+
+  let song6 = new Song(6, '儿童歌曲', '一闪一闪亮晶晶', sonSongIp + 'yi-shan-yi-shan-liang-jing-jing.mp3');
   
+  songList.push(song6);
   songList.push(song5);
   songList.push(song4);
   songList.push(song0);
