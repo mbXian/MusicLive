@@ -4,7 +4,7 @@
 
 body {
   /* 背景图垂直、水平均居中 */
-  background:url(/munSon.png) no-repeat center center;
+  background:url(munSon.png) no-repeat center center;
   /* 让背景图基于容器大小伸缩 */
   background-size:cover;
   /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
