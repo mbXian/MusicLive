@@ -20,8 +20,7 @@ function Song(id, singer, name, url){
 
 function initMunSongs() {
   var songList = new Array();
-  // var munSongIp = 'http://47.105.137.41/demo/mun/';
-  var munSongIp = 'mun/';
+  var munSongIp = 'http://47.105.137.41/demo/MusicLive/mun/';
 
   let song0 = new Song(0, '陈慧娴', '千千阕歌', munSongIp + 'qian-qian-que-ge.mp3');
 
@@ -74,8 +73,7 @@ function initMunSongs() {
 
 function initSonSongs() {
   var songList = new Array();
-  // var sonSongIp = 'http://47.105.137.41/demo/son/';
-  var sonSongIp = 'son/';
+  var sonSongIp = 'http://47.105.137.41/demo/MusicLive/son/';
 
   let song0 = new Song(0, '杨烁', '两只老虎', sonSongIp + 'liang-zhi-lao-hu.mp3');
 
