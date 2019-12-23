@@ -90,7 +90,10 @@ function initSonSongs() {
   let song5 = new Song(5, '伊芙莲', '氹氹转 菊花园', sonSongIp + 'ju-hua-yuan.mp3');
 
   let song6 = new Song(6, '儿童歌曲', '一闪一闪亮晶晶', sonSongIp + 'yi-shan-yi-shan-liang-jing-jing.mp3');
+
+  let song7 = new Song(7, '小囧熊英文儿歌', 'ABC', sonSongIp + 'ABC.mp3');
   
+  songList.push(song7);
   songList.push(song6);
   songList.push(song5);
   songList.push(song4);
