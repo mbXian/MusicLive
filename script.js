@@ -53,6 +53,9 @@ function initMunSongs() {
   
   let song14 = new Song(14, '邓丽君', '旧梦不须记', munSongIp + 'jiu-meng-bu-xu-ji.mp3');
 
+  let song15 = new Song(15, '黄熙雯', '友谊之花', munSongIp + 'you-yi-zhi-hua.mp3');
+
+  songList.push(song15);
   songList.push(song14);
   songList.push(song13);
   songList.push(song11);
