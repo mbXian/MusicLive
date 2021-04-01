@@ -59,8 +59,10 @@ function initMunSongs() {
   
   let song17 = new Song(17, '汪明荃', '万水千山总是情', munSongIp + 'wan-shui-qian-shan-zong-shi-qing.mp3');
 
+  let song18 = new Song(18, '郑少秋', '天涯孤客', munSongIp + 'tian-ya-gu-ke.mp3');
+
   songList.push(song16);
-  songList.push(song17);
+  songList.push(song18);
   songList.push(song15);
   songList.push(song14);
   songList.push(song13);
