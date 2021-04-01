@@ -55,7 +55,7 @@ function initMunSongs() {
 
   let song15 = new Song(15, '黄熙雯', '友谊之花', munSongIp + 'you-yi-zhi-hua.mp3');
 
-  let song16 = new Song(16, '汪小敏 翻唱 郑少秋', '笑看风云', munSongIp + 'xiao-kan-feng-yun.mp3');
+  let song16 = new Song(16, '汪小敏翻唱郑少秋的', '笑看风云', munSongIp + 'xiao-kan-feng-yun.mp3');
   
   let song17 = new Song(17, '汪明荃', '万水千山总是情', munSongIp + 'wan-shui-qian-shan-zong-shi-qing.mp3');
 
