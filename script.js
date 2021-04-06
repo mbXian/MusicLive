@@ -61,7 +61,10 @@ function initMunSongs() {
 
   let song18 = new Song(18, '郑少秋', '天涯孤客', munSongIp + 'tian-ya-gu-ke.mp3');
 
+  let song19 = new Song(19, '周慧敏', '最爱', munSongIp + 'zui-ai.mp3');
+
   songList.push(song16);
+  songList.push(song19);
   songList.push(song18);
   songList.push(song15);
   songList.push(song14);
