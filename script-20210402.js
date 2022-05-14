@@ -20,7 +20,7 @@ function Song(id, singer, name, url){
 
 function initMunSongs() {
   var songList = new Array();
-  // var munSongIp = 'http://47.105.137.41/demo/MusicLive/mun/';
+  // var munSongIp = 'http://localhost/demo/MusicLive/mun/';
   var munSongIp = 'mun/';
 
   let song0 = new Song(0, '陈慧娴', '千千阕歌', munSongIp + 'qian-qian-que-ge.mp3');
