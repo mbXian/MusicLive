@@ -4,7 +4,7 @@
 
 body {
   /* 背景图垂直、水平均居中 */
-  background:url(http://47.110.93.171:81/MusicLive/munSon.png) no-repeat center center;
+  background:url(http://124.71.64.112/MusicLive/munSon.png) no-repeat center center;
   /* 让背景图基于容器大小伸缩 */
   background-size:cover;
   /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
