@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="">
+    <title>音乐直播</title>
+    <link rel="stylesheet" href="style-20220514.css?version=202205140900">
+    <script type="text/javascript" src="script-20220514.js?version=202205140900">
+    </script>
+  </head>
+
+  <body>
+    <div class="background">
+      <div id="topIntervalDiv">
+      </div>
+      <div id="contentDiv">
+        <p id="singer">
+          Singer
+        </p>
+        <p id="song">
+          Song
+        </p>
+
+        <audio autoplay="autoplay" id="audio" preload="auto">
+          <source src="http://fs.open.kugou.com/acdee3c06f6cf6dc78ed7a5a9897a30d/5ca5daba/G016/M0A/1C/17/sIYBAFVi8fCAGf41AEPmWAnu_RI158.mp3" />
+        </audio>
+
+        <div id="buttonDiv">
+          <input id="button" type="button" value="开始播放▶️" onclick="onSing()">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
